@@ -1,0 +1,57 @@
+{
+  "model": "facebook/bart-large-mnli (zero-shot, no fine-tuning)",
+  "n_samples": 500,
+  "accuracy": 0.374,
+  "f1_macro": 0.3773507554613302,
+  "classification_report": {
+    "sadness": {
+      "precision": 0.7078651685393258,
+      "recall": 0.45985401459854014,
+      "f1-score": 0.5575221238938053,
+      "support": 137.0
+    },
+    "joy": {
+      "precision": 0.7625,
+      "recall": 0.3370165745856354,
+      "f1-score": 0.4674329501915709,
+      "support": 181.0
+    },
+    "love": {
+      "precision": 0.3181818181818182,
+      "recall": 0.175,
+      "f1-score": 0.22580645161290322,
+      "support": 40.0
+    },
+    "anger": {
+      "precision": 0.7777777777777778,
+      "recall": 0.31343283582089554,
+      "f1-score": 0.44680851063829785,
+      "support": 67.0
+    },
+    "fear": {
+      "precision": 0.6388888888888888,
+      "recall": 0.3770491803278688,
+      "f1-score": 0.4742268041237113,
+      "support": 61.0
+    },
+    "surprise": {
+      "precision": 0.04878048780487805,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.09230769230769231,
+      "support": 14.0
+    },
+    "accuracy": 0.374,
+    "macro avg": {
+      "precision": 0.5423323568654481,
+      "recall": 0.4199159104126328,
+      "f1-score": 0.3773507554613302,
+      "support": 500.0
+    },
+    "weighted avg": {
+      "precision": 0.678967121959524,
+      "recall": 0.374,
+      "f1-score": 0.4603489319585236,
+      "support": 500.0
+    }
+  }
+}
